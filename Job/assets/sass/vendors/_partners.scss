@@ -1,3 +1,6 @@
+$bold: bold;
+$buttonColor: #555555;
+
 
 	#partners{
 		.col-md-3{
@@ -22,10 +25,15 @@
  	.postFourth{
  		background-image: url("http://templates.everislabs.com/erato/images/demo/cilent-6.png");
  	}
- 	h4
- 	{
- 		color: inherit;
- 		line-height: 26px;
+
+
+ 	h3{
+ 		font-weight: $bold;
+		font-size: 20px;
+ 	}
+ 	h4{
+ 		font-weight: $bold;
+		font-size: 20px;
 	}
 
 	span
@@ -38,4 +46,24 @@
 		 background: #333;
    			 color: #fff;
 	}
+	.borderOne {
+		border: 1px solid lightgray;
+		padding: 10px;
+	}
+	.borderTwo {
+		border: 1px solid lightgray;
+				padding: 10px;
+
+	}
+	
+	button{
+		border: transparent;
+		background-color: $buttonColor;
+		color: white;
+		padding: 5px 23px;
+		margin-top: 25px;
+		border-radius: 2px;
+
+	}
+
 }

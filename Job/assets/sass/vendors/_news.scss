@@ -1,6 +1,8 @@
 @import url("https://opensource.keycdn.com/fontawesome/4.6.3/font-awesome.min.css");
  
 $mainwidth:100%;
+$bold: bold;
+$colorBlu: #31A3DD;
 
 
 #news{
@@ -8,6 +10,11 @@ $mainwidth:100%;
 
 	.col-md-3{
 		padding:10px;
+	}
+	h3 {
+		font-weight: $bold;
+		font-size: 20px;
+
 	}
 	.row .col-md-3 div{
 		height: 200px;
@@ -23,20 +30,37 @@ $mainwidth:100%;
  		background-image: url("http://templates.everislabs.com/erato/images/demo/post-7-570.jpg");
  		
  	}
+ 	.postFirst:hover{
+ 		filter: brightness(80%);
+ 	}
  	.postSecond{
  		background-image: url("http://templates.everislabs.com/erato/images/demo/post-5-570.jpg");
 
  	}
+ 	.postSecond:hover{
+ 		filter: brightness(80%);
+ 	}
  	.postThird{
  		background-image: url("http://templates.everislabs.com/erato/images/demo/post-4-570.jpg");
-
+ 	}
+ 	.postThird:hover{
+ 		filter: brightness(80%);
  	}
  	.postFourth{
  		background-image: url("http://templates.everislabs.com/erato/images/demo/post-6-570.jpg");
  	}
+ 	.postFourth:hover{
+ 		filter: brightness(80%);
+ 	}
  	.like{
  		width: 100%;
- 		border-bottom: 2px solid black;
+ 		border-bottom: 2px solid lightgray;
+ 		color: lightgray;
  	}
+
+ 	span:hover{
+ 		color: $colorBlu;
+ 	}
+
 
  }

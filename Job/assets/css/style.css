@@ -5814,6 +5814,9 @@ button.close {
   width: 100%; }
   #news .col-md-3 {
     padding: 10px; }
+  #news h3 {
+    font-weight: bold;
+    font-size: 20px; }
   #news .row .col-md-3 div {
     height: 200px;
     background-size: cover;
@@ -5824,15 +5827,26 @@ button.close {
       padding-top: 110px; }
   #news .postFirst {
     background-image: url("http://templates.everislabs.com/erato/images/demo/post-7-570.jpg"); }
+  #news .postFirst:hover {
+    filter: brightness(80%); }
   #news .postSecond {
     background-image: url("http://templates.everislabs.com/erato/images/demo/post-5-570.jpg"); }
+  #news .postSecond:hover {
+    filter: brightness(80%); }
   #news .postThird {
     background-image: url("http://templates.everislabs.com/erato/images/demo/post-4-570.jpg"); }
+  #news .postThird:hover {
+    filter: brightness(80%); }
   #news .postFourth {
     background-image: url("http://templates.everislabs.com/erato/images/demo/post-6-570.jpg"); }
+  #news .postFourth:hover {
+    filter: brightness(80%); }
   #news .like {
     width: 100%;
-    border-bottom: 2px solid black; }
+    border-bottom: 2px solid lightgray;
+    color: lightgray; }
+  #news span:hover {
+    color: #31A3DD; }
 
 #partners .col-md-3 {
   padding: 50px; }
@@ -5848,13 +5862,29 @@ button.close {
   background-image: url("http://templates.everislabs.com/erato/images/demo/cilent-5.png"); }
 #partners .postFourth {
   background-image: url("http://templates.everislabs.com/erato/images/demo/cilent-6.png"); }
+#partners h3 {
+  font-weight: bold;
+  font-size: 20px; }
 #partners h4 {
-  color: inherit;
-  line-height: 26px; }
+  font-weight: bold;
+  font-size: 20px; }
 #partners span {
   color: #999; }
 #partners a {
   background: #333;
   color: #fff; }
+#partners .borderOne {
+  border: 1px solid lightgray;
+  padding: 10px; }
+#partners .borderTwo {
+  border: 1px solid lightgray;
+  padding: 10px; }
+#partners button {
+  border: transparent;
+  background-color: #555555;
+  color: white;
+  padding: 5px 23px;
+  margin-top: 25px;
+  border-radius: 2px; }
 
 /*# sourceMappingURL=style.css.map */
