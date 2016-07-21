@@ -1,0 +1,41 @@
+
+	#partners{
+		.col-md-3{
+		padding:50px;
+	}
+	.row .col-md-3 div{
+		height: 45px;
+		background-size:cover;
+		color: white;
+	}
+ 	.postFirst{	
+ 		background-image: url("http://templates.everislabs.com/erato/images/demo/cilent-3.png");
+ 		
+ 	}
+ 	.postSecond{
+ 		background-image: url("http://templates.everislabs.com/erato/images/demo/cilent-4.png")
+ 	}
+ 	.postThird{
+ 		background-image: url("http://templates.everislabs.com/erato/images/demo/cilent-5.png");
+
+ 	}
+ 	.postFourth{
+ 		background-image: url("http://templates.everislabs.com/erato/images/demo/cilent-6.png");
+ 	}
+ 	h4
+ 	{
+ 		color: inherit;
+ 		line-height: 26px;
+	}
+
+	span
+	{
+		color: #999;
+	}
+	
+	a
+	{
+		 background: #333;
+   			 color: #fff;
+	}
+}

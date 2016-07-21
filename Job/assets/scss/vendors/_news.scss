@@ -1,0 +1,42 @@
+@import url("https://opensource.keycdn.com/fontawesome/4.6.3/font-awesome.min.css");
+ 
+$mainwidth:100%;
+
+
+#news{
+	width:$mainwidth;
+
+	.col-md-3{
+		padding:10px;
+	}
+	.row .col-md-3 div{
+		height: 200px;
+		background-size:cover;
+		color: white;
+		font-size: 16px;
+   		line-height: 22px;
+   	.blog-content{
+		padding-top: 110px;
+		}
+	}
+ 	.postFirst{	
+ 		background-image: url("http://templates.everislabs.com/erato/images/demo/post-7-570.jpg");
+ 		
+ 	}
+ 	.postSecond{
+ 		background-image: url("http://templates.everislabs.com/erato/images/demo/post-5-570.jpg");
+
+ 	}
+ 	.postThird{
+ 		background-image: url("http://templates.everislabs.com/erato/images/demo/post-4-570.jpg");
+
+ 	}
+ 	.postFourth{
+ 		background-image: url("http://templates.everislabs.com/erato/images/demo/post-6-570.jpg");
+ 	}
+ 	.like{
+ 		width: 100%;
+ 		border-bottom: 2px solid black;
+ 	}
+
+ }
